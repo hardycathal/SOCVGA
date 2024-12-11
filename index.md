@@ -14,6 +14,7 @@ As usual, I had to move the testbench to simulation sources and set the VGATop m
 Upon completion, the colour cycle template then ran successfully, which loops through diffferent colours on the screen.
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+
 ### **Template Code**
 Fistly, the VGASync module create the timing signals needed for a VGA display to know when to start a new row or frame. It keeps track of the current position of the pixel on the screen. The row and col outputs 
 allow other modules to access the pixel's coordinates.
